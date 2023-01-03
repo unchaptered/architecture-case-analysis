@@ -1,0 +1,33 @@
+{
+  "name": "architecture-case-analysis",
+  "version": "1.0.0",
+  "description": "architecture-case-analysis with [This is My Architecture](https://aws.amazon.com/ko/architecture/this-is-my-architecture/?tma.sort-by=item.additionalFields.airDate&amp;tma.sort-order=desc&amp;awsf.category=*all&amp;awsf.industry=*all&amp;awsf.language=*all&amp;awsf.show=*all)",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc -p tsconfig.json",
+    "start": "node dist/readme.generator.js",
+    "dev": "tsc-watch --onSuccess \"node dist/readme.generator.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unchaptered/architecture-case-analysis.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "unchaptered <MinSeok, Lee>",
+    "email": "workstation19961002@gmail.com",
+    "url": "https://www.linkedin.com/feed/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unchaptered/architecture-case-analysis/issues"
+  },
+  "homepage": "https://github.com/unchaptered/architecture-case-analysis#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "tsc-watch": "^6.0.0"
+  }
+}
