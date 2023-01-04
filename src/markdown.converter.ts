@@ -29,8 +29,9 @@ architecture-case-analysis with [This is My Architecture](${awsLink})
         
         markdown += `${idx + 1}. [${chapter}](${encodeURI(BASE_URL + chapter)})\n`;
         for (let jdx = 0; jdx < filenameList.length; jdx++) {
-            const { createdAt, realFilename } = getFormatedFilename(filenameList[jdx]);
-            markdown += `\n   ${createdAt} - [${realFilename}](${encodeURI(BASE_URL + chapter)}) \n`
+            const filename = filenameList[jdx];
+            const { createdAt, realFilename } = getFormatedFilename(filename);
+            markdown += `\n   ${createdAt} - [${realFilename}](${encodeURI(BASE_URL + chapter + '/' + filename)}) \n`
         }
     }
 
