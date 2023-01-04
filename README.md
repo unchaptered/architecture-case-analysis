@@ -7,4 +7,4 @@ architecture-case-analysis with [This is My Architecture](https://aws.amazon.com
 
 1. [media-service](https://github.com/unchaptered/architecture-case-analysis/tree/main/media-service)
 
-   20230103 - [Audio Live Streaming and Batch Processing Architecture on AWS (Korean).md](https://github.com/unchaptered/architecture-case-analysis/tree/main/media-service) 
+   20230103 - [Audio Live Streaming and Batch Processing Architecture on AWS (Korean).md](https://github.com/unchaptered/architecture-case-analysis/tree/main/media-service/20230103%20-%20Audio%20Live%20Streaming%20and%20Batch%20Processing%20Architecture%20on%20AWS%20(Korean).md) 
