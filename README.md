@@ -5,3 +5,6 @@ architecture-case-analysis with [This is My Architecture](https://aws.amazon.com
 
 ## Chaters
 
+1. [media-service](https://github.com/unchaptered/architecture-case-analysis/tree/main/media-service)
+
+   20230103 - [Audio Live Streaming and Batch Processing Architecture on AWS (Korean).md](https://github.com/unchaptered/architecture-case-analysis/tree/main/media-service) 
